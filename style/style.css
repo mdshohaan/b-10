@@ -189,3 +189,27 @@ a {
   justify-content: center;
   align-items: center;
 }
+/* habit style starts here */
+
+.habit_container {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+.habit_content {
+  display: flex;
+}
+.habit_pic_container {
+  width: 250px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.habit_pic,
+img {
+  border-radius: 50%;
+}
+.habit_pic {
+  border-radius: 50%;
+}

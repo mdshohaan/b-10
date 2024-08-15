@@ -6,12 +6,24 @@
     flex-direction: column;
     margin-top: 30px;
   }
-  .get_left{
+  .get_left {
     width: 80%;
   }
   .get_right {
     width: 80%;
   }
-  .tutorial_container{
+  .tutorial_container {
     left: -80px;
   }
+  .habit_container {
+    margin: 0 auto;
+  }
+  .habit_content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .flex {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
