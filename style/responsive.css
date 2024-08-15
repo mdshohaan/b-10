@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px) {
+  .nav_container {
+    max-width: 100vw;
+  }
+  .get_container {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .get_left{
+    width: 80%;
+  }
+  .get_right {
+    width: 80%;
+  }
+  .tutorial_container{
+    left: -80px;
+  }
