@@ -26,4 +26,20 @@
     width: 80%;
     margin: 20px auto;
   }
+  .run_container {
+  }
+  .run_content {
+    width: 550px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .run_img > img {
+    width: 240px;
+    height: 240px;
+    border-radius: 18px;
+
+    object-fit: none;
+    object-position: 67% 30%;
+  }
 }
