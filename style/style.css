@@ -303,7 +303,7 @@ tr,td,th{
   text-align: center;
 }
 .bmi_right{
-width: 40%;
+width: 50%;
 text-align: center;
 
 }
@@ -340,4 +340,168 @@ input,select,option{
   padding: 10px 100px;
   font-size: 15px;
   margin-bottom: 30px;
+}
+
+ /* Meet Our team starts here */
+
+ .meet_container{
+  max-width: 1000px;
+  border-radius: 18px;
+/* background: rgba(255, 255, 255, 0.1); */
+margin: 0 auto;
+ }
+ .trainer_container {
+  /* width: 1050px; */
+  /* height: 604px; */
+  border-radius: 18px;
+  color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  
+  
+   
+}
+.trainer_pic {
+  margin: 50px 5px;
+}
+.trainer_pic,
+img {
+  /* width: 326.67px;
+  height: 272px; */
+  /* display: block; */
+  border-radius: 10px;
+  margin: 10px ;
+  background: rgba(0, 0, 0, 0.2);
+  width: 90%;
+  height: 90%;
+}
+.trainer_heading {
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  position: absolute;
+  left: 50px;
+  top: 200px;
+}
+
+.trainer_heading > h1 {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.trainer_heading > h6 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.trainer_pic1 {
+  /* width: 326.67px;
+  height: 272px; */
+  margin: 30px 10px;
+  border-radius: 18px;
+  color: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 10px;
+}
+.trainer_pic2 {
+  /* width: 326.67px;
+  height: 272px; */
+  margin: 30px 10px;
+  border-radius: 18px;
+  color: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 10px;
+}
+.trainer_pic3 {
+  /* width: 326.67px;
+  height: 272px; */
+  margin: 30px 10px;
+  border-radius: 18px;
+  color: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 10px;
+}
+.trainer_pic4 {
+  /* width: 326.67px;
+  height: 272px; */
+  margin: 30px 10px;
+  border-radius: 18px;
+  color: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 10px;
+}
+.trainer_pic5 {
+  /* width: 326.67px;
+  height: 272px; */
+  margin: 30px 10px;
+  border-radius: 18px;
+  color: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 10px;
+}
+.trainer_pic6 {
+  /* width: 326.67px;
+  height: 272px; */
+  margin: 30px 10px;
+  border-radius: 18px;
+  color: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 10px;
+}
+
+/* <!-- get started starts here --> */
+
+
+.over{
+  background: rgba(255, 255, 255, 0.1);
+}
+.start_container{
+  max-width: 1000px;
+  
+  margin: 20px auto;
+  padding: 50px;
+  
+}
+.start_content{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+
+}
+.start_one{
+width: 40%;
+}
+.start_one>h1{
+  margin-bottom: 30px;
+
+}
+.headingone{
+  font-size: 40px;
+  color: white;
+}
+.text_mar{
+  margin-top: 10px;
+}
+.start_two{
+width: 30%;
+}
+.start_three{
+width: 30%;
+}
+.fitness{
+  font-size: 50px;
+font-weight: 800;
+color: rgb(230, 83, 60);
+font-style: italic;
+}
+hr{
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
