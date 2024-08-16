@@ -67,7 +67,7 @@
   }
   .trainer_container {
     width: 80%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .trainer_pic > img {
     width: 100%;
