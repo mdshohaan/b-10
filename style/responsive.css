@@ -42,4 +42,27 @@
     object-fit: none;
     object-position: 67% 30%;
   }
+  .bmi_content {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  .bmi_left {
+    width: 100%;
+  }
+  .bmi_right {
+    width: 100%;
+  }
+  input,
+  select,
+  option {
+    width: 90%;
+    height: 90%;
+    font-size: 10px;
+  }
+  table {
+    width: 90%;
+    height: 90%;
+    /* font-size: 10px; */
+  }
 }
